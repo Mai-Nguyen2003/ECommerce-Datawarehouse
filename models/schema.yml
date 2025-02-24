@@ -1,0 +1,8 @@
+models:
+ - name: stg_customers
+ - name: stg_order_items
+ - name: stg_order_payment
+ - name: stg_orders
+ - name: stg_prodcategory_name.sql
+ - name: stg_products
+ - name: stg_sellers

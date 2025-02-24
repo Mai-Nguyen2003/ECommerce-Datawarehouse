@@ -1,0 +1,19 @@
+version: 2
+sources:
+  - name: ecom
+    database: ECOM_DB
+    schema: ECOM_SCHEMA
+    tables:
+     - name: raw_customers_dataset
+
+     - name: raw_order_items_dataset
+
+     - name: raw_order_payment_dataset
+
+     - name: raw_orders_dataset
+
+     - name: raw_product_category_name_translation
+
+     - name: raw_products_dataset
+
+     - name: raw_sellers_dataset
