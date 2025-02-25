@@ -26,6 +26,11 @@ Dagster is used to orchestrate the data ingestion first. After all the raw data 
 
 > **Model view of star schema**
 <br/>
-After uploading all fact and dimension tables in Power BI, I realize that dim_payment is not a real dimension. In some order_ids products can purchased by more than one payment types, I merge chosen payment types into list for each order_id in fact table. A dimension table Dim_Date is added.
+After uploading all fact and dimension tables in Power BI, I realize that dim_payment is not a real dimension. In some order_ids products can purchased by more than one payment types, I merge chosen payment types into list for each order_id in fact table. A dimension table Dim_Date is added.<br/>
+
+## Dashboard
+![](Dashboard.png)
+
+Analysing trends and performing data insights
 
 
